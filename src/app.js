@@ -12,7 +12,7 @@ import 'react-dates/lib/css/_datepicker.css';
 import { setTimeout } from 'timers';
 
 const store = configureStore();
-console.log(store.getState());
+// console.log(store.getState());
 
 // store.subscribe(() => {
 //   const state = store.getState();
@@ -20,9 +20,9 @@ console.log(store.getState());
 //   console.log(visibleExpenses);
 // })
 
-store.dispatch(addExpense({ description: 'Water Bill', amount: 500 }));
-store.dispatch(addExpense({ description: 'Gas Bill', amount: 1000, createdAt: 1000 }));
-store.dispatch(addExpense({ description: 'Gas Bill', amount: 109000 }));
+// store.dispatch(addExpense({ description: 'Water Bill', amount: 500 }));
+// store.dispatch(addExpense({ description: 'Gas Bill', amount: 1000, createdAt: 1000 }));
+// store.dispatch(addExpense({ description: 'Gas Bill', amount: 109000 }));
 // store.dispatch(setTextFilter('water'));
 
 // setTimeout(() => {
