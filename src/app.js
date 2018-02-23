@@ -20,9 +20,9 @@ const store = configureStore();
 //   console.log(visibleExpenses);
 // })
 
-// store.dispatch(addExpense({ description: 'Water Bill', amount: 500 }));
-// store.dispatch(addExpense({ description: 'Gas Bill', amount: 1000, createdAt: 1000 }));
-// store.dispatch(addExpense({ description: 'Gas Bill', amount: 109000 }));
+store.dispatch(addExpense({ description: 'Water Bill', amount: 500 }));
+store.dispatch(addExpense({ description: 'Gas Bill', amount: 1000, createdAt: 1000 }));
+store.dispatch(addExpense({ description: 'Gas Bill', amount: 109000 }));
 // store.dispatch(setTextFilter('water'));
 
 // setTimeout(() => {
